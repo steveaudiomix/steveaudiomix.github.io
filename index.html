@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STEVE — Mixing & Mastering</title>
+  <meta name="description" content="Ingeniero de mezcla y mastering independiente. Trabajo personalizado, resultados que se sienten en cualquier sistema.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0;}
+    body{background:#f5f0e8;color:#1a1a1a;font-family:'Inter',sans-serif;font-size:15px;line-height:1.6;}
+
+    .top{padding:28px 40px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #e0d9cc;}
+    .logo{font-family:'DM Serif Display',serif;font-size:22px;color:#1a1a1a;}
+    .logo em{color:#9b2c2c;font-style:italic;}
+    .logo small{display:block;font-family:'Inter',sans-serif;font-size:11px;color:#aaa49a;letter-spacing:0.2em;text-transform:uppercase;margin-top:3px;}
+    .btn-c{font-family:'Inter',sans-serif;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:#9b2c2c;border:1px solid rgba(155,44,44,0.3);padding:8px 16px;border-radius:1px;background:transparent;cursor:pointer;transition:background 0.2s;text-decoration:none;display:inline-block;}
+    .btn-c:hover{background:rgba(155,44,44,0.06);}
+
+    .hero{padding:64px 40px 52px;border-bottom:1px solid #e0d9cc;}
+    .hero-label{font-family:'Inter',sans-serif;font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:#bbb5a8;margin-bottom:18px;}
+    .hero-name{font-family:'DM Serif Display',serif;font-size:54px;line-height:1.05;color:#1a1a1a;margin-bottom:22px;}
+    .hero-name em{color:#9b2c2c;font-style:italic;}
+    .hero-bio{font-family:'DM Serif Text',serif;font-size:18px;color:#7a7368;max-width:480px;line-height:1.85;margin-bottom:32px;font-style:italic;}
+    .hero-bio strong{color:#4a4540;font-style:normal;font-weight:400;}
+
+    .pills{display:flex;gap:8px;flex-wrap:wrap;}
+    .pill{font-family:'Inter',sans-serif;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;padding:7px 14px;border:1px solid #d9d2c5;color:#aaa49a;border-radius:1px;}
+    .pill.on{border-color:rgba(155,44,44,0.25);color:#9b2c2c;background:rgba(155,44,44,0.04);}
+
+    .divider{height:1px;background:#e0d9cc;margin:0 40px;}
+
+    .samples-section{padding:44px 40px;}
+    .sec-title{font-family:'Inter',sans-serif;font-size:11px;letter-spacing:0.2em;text-transform:uppercase;color:#c0b9ac;margin-bottom:28px;}
+
+    .sample{margin-bottom:32px;}
+    .sample:last-child{margin-bottom:0;}
+
+    .sample-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:10px;}
+    .sample-title{font-family:'DM Serif Display',serif;font-size:18px;color:#2a2520;}
+    .sample-meta{font-family:'Inter',sans-serif;font-size:11px;color:#c0b9ac;}
+    .sample-badge{font-family:'Inter',sans-serif;font-size:10px;letter-spacing:0.08em;text-transform:uppercase;padding:4px 10px;border-radius:1px;border:1px solid;color:#9b2c2c;border-color:rgba(155,44,44,0.2);background:rgba(155,44,44,0.04);}
+
+    .sc-player{border-radius:2px;overflow:hidden;border:1px solid #e0d9cc;}
+
+    .foot{padding:24px 40px;border-top:1px solid #e0d9cc;display:flex;justify-content:space-between;align-items:center;}
+    .foot-l{font-family:'Inter',sans-serif;font-size:11px;color:#c0b9ac;letter-spacing:0.08em;}
+    .foot-jp{font-family:'DM Serif Display',serif;font-size:14px;color:#d9d2c5;font-style:italic;}
+
+    @media(max-width:600px){
+      .top,.hero,.samples-section,.foot{padding-left:20px;padding-right:20px;}
+      .divider{margin:0 20px;}
+      .hero-name{font-size:38px;}
+      .sample-header{flex-direction:column;align-items:flex-start;gap:6px;}
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top">
+    <div class="logo">STEVE <em>Audiomix</em><small>音 · Mixing & Mastering</small></div>
+    <a class="btn-c" href="mailto:steveaudiomix@gmail.com">Contactar →</a>
+  </div>
+
+  <div class="hero">
+    <p class="hero-label">Mixing · Mastering · Chile</p>
+    <h1 class="hero-name">Música con<br><em>Carácter.</em></h1>
+    <p class="hero-bio">Ingeniero de mezcla y mastering independiente. <strong>Trabajo contigo para que tu música suene exactamente como la imaginaste</strong> — con claridad, profundidad y presencia en cualquier sistema de reproducción.</p>
+    <div class="pills">
+      <span class="pill on">Mezcla</span>
+      <span class="pill on">Mastering</span>
+      <span class="pill">ES · EN</span>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="samples-section">
+    <p class="sec-title">Muestras de Trabajo</p>
+
+    <div class="sample">
+      <div class="sample-header">
+        <div>
+          <div class="sample-title">Mi Vida</div>
+          <div class="sample-meta">Tus Nuevos Mejores Amigos · Rock Alternativo · Mezcla</div>
+        </div>
+        <span class="sample-badge">Mezcla</span>
+      </div>
+      <iframe class="sc-player" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/steveaudiomix/mi-vida&color=%239b2c2c&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false">
+      </iframe>
+    </div>
+
+    <div class="sample">
+      <div class="sample-header">
+        <div>
+          <div class="sample-title">Córtame los Labios</div>
+          <div class="sample-meta">FRONTIS · Rock Alternativo · Mezcla</div>
+        </div>
+        <span class="sample-badge">Mezcla</span>
+      </div>
+      <iframe class="sc-player" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/steveaudiomix/cortame-los-labios&color=%239b2c2c&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false">
+      </iframe>
+    </div>
+
+  </div>
+
+  <div class="foot">
+    <span class="foot-l">© 2026 STEVE Audiomix · Mixing & Mastering</span>
+    <span class="foot-jp">音楽は魂の言語</span>
+    <a class="btn-c" href="mailto:steveaudiomix@gmail.com">Contactar →</a>
+  </div>
+
+</body>
+</html>
